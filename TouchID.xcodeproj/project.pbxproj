@@ -229,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -428,7 +429,7 @@
 				DEVELOPMENT_TEAM = X5733X6NCT;
 				INFOPLIST_FILE = TouchID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Jame.TouchID;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaco.TouchID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -440,7 +441,7 @@
 				DEVELOPMENT_TEAM = X5733X6NCT;
 				INFOPLIST_FILE = TouchID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Jame.TouchID;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaco.TouchID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -514,6 +515,7 @@
 				7919A23A1E5D2C5F00063ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7919A23B1E5D2C5F00063ADF /* Build configuration list for PBXNativeTarget "TouchIDTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +524,7 @@
 				7919A23D1E5D2C5F00063ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7919A23E1E5D2C5F00063ADF /* Build configuration list for PBXNativeTarget "TouchIDUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +533,7 @@
 				7919A2401E5D2C5F00063ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -121,7 +121,7 @@
             }
         }
         [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-            self.statusLabel.text = [NSString stringWithFormat:@"%@/n%@",errorString,error.localizedDescription];
+            self.statusLabel.text = [NSString stringWithFormat:@"%@\n%@",errorString,error.localizedDescription];
         }];
     }
 }
